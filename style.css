@@ -72,7 +72,8 @@ p{
 }
 
 .submit{
-    margin-top: 15px;
+    text-decoration: none;
+    margin-top: 20px;
     background-image: linear-gradient(rgb(248, 70, 70),tomato);
     padding: 10px;
     text-align: center;
@@ -190,7 +191,7 @@ h5
 
 .footer
 {
-    margin: 0;
+    margin: auto;
     padding: 10px;
     color: white;
     background-color: brown;
@@ -203,12 +204,14 @@ h5
 
 #donate-header
 {
+    margin: 0;
+    position:absolute;
+    top: 40%;
+    left:45%;
     text-decoration: none;
-    margin: 700px;
     border-radius: 8px;
     font-weight: 500;
     color: white;
     background-image: linear-gradient(red, tomato);
-    padding: 10px;
-    
+    padding: 5px;    
 }
