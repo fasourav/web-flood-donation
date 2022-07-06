@@ -1,0 +1,214 @@
+body{
+    font-family: font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Slab', serif;;
+}
+
+
+.header-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/donation0.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+}
+
+p{
+    text-align: center;
+}
+.header h1{
+    text-align: center;
+    color: white;
+    font-size: 55px;
+}
+.header p{
+    color: white;
+}
+
+.donate-today {
+    padding: 90px;
+    text-align: center;
+}
+
+.donate-options{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;  
+}
+
+#box-1{
+
+    padding: 20px;
+    box-shadow: inset 0px 0px 60px rgba(0, 0, 0, 0.1);
+
+}
+#box-2{
+    padding: 20px;
+    color: red;
+    border: solid 1px red;
+    box-shadow: inset 0px 0px 60px rgba(241, 55, 55, 0.1);
+}
+#box-3{
+    padding: 20px;
+    box-shadow: inset 0px 0px 60px rgba(0, 0, 0, 0.1);
+}
+#box-4{
+    padding: 20px;
+    box-shadow: inset 0px 0px 60px rgba(0, 0, 0, 0.1);
+}
+#box-5{
+    padding: 20px;
+    box-shadow: inset 0px 0px 60px rgba(0, 0, 0, 0.1);
+}
+
+#placeholder{
+    margin-top: 40px;
+    padding: 10px;
+    height: 10px;
+    width: 35%;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid gray ;
+}
+
+.submit{
+    margin-top: 15px;
+    background-image: linear-gradient(rgb(248, 70, 70),tomato);
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
+
+#plans
+{
+    text-align: center;
+}
+
+.donate-plans{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+
+#food{
+    border-width: thick;
+    padding: 70px 5px;
+    background-color: aliceblue  ;
+    text-align: left;
+    justify-content: left;
+    border: 0.5px solid gray;
+}
+#shelter{
+    border-width: thick;
+    background-color: rgb(250, 250, 201);
+    padding: 70px 5px;
+    text-align: left;
+    justify-content: left;
+    border: 0.5px solid gray;
+}
+
+    #education
+    {
+    padding: 70px 5px;
+    background-color: azure
+    ;
+    text-align: left;
+    justify-content: left;
+    border: 0.5px solid gray;
+    }
+
+.donate-plans p{
+    text-align: left;
+}
+
+.half-width{
+    width: 60%;
+    margin-left: 2px;
+}
+
+.banner
+{   
+    margin-top: 150px;
+    gap: 300px;
+    display: flex;
+}
+
+#img
+{
+    border-radius: 100px;
+    height: 350px;
+}
+
+#donate-btn
+{
+    
+    background-image: linear-gradient(red, tomato);
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 1px;
+    margin: ;
+    
+}
+
+h3
+{
+    font-size: x-large;
+}
+h5
+{
+    font-size: x-large;
+}
+
+.updates
+{   margin: 100px;
+    text-align: center;
+}
+
+.subscribe
+{
+    background-image: linear-gradient(rgb(251, 251, 234),rgb(254, 254, 140));
+    text-align: center;
+    border: 1px solid yellow;
+    padding:50px;
+    margin: 100px 150px;
+    border-radius: 10px;
+}
+#email
+{
+    border:.01 px;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.footer
+{
+    margin: 0;
+    padding: 10px;
+    color: white;
+    background-color: brown;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: larger;
+    font-style: italic;
+}
+
+#donate-header
+{
+    text-decoration: none;
+    margin: 700px;
+    border-radius: 8px;
+    font-weight: 500;
+    color: white;
+    background-image: linear-gradient(red, tomato);
+    padding: 10px;
+    
+}
